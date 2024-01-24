@@ -6,11 +6,11 @@
 
             <div class="section-title">
                 <h2>Resume</h2>
-                <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                <p>Pengalaman dalam hidup saya</p>
             </div>
 
             <div class="row">
-                <div class="col-lg-6" data-aos="fade-up">
+                <!-- <div class="col-lg-6" data-aos="fade-up">
                     <h3 class="resume-title">Sumary</h3>
                     <div class="resume-item pb-0">
                         <h4>Alex Smith</h4>
@@ -35,8 +35,8 @@
                         <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
                         <p>Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis Eius vel ratione eius unde vitae rerum voluptates asperiores voluptatem Earum molestiae consequatur neque etlon sader mart dila</p>
                     </div>
-                </div>
-                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                </div> -->
+                <!-- <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
                     <h3 class="resume-title">Professional Experience</h3>
                     <div class="resume-item">
                         <h4>Senior graphic design specialist</h4>
@@ -60,11 +60,11 @@
                             <li>Created 4+ design presentations and proposals a month for clients and account managers</li>
                         </ul>
                     </div>
-                </div>
+                </div> -->
             </div>
 
         </div>
     </section><!-- End Resume Section -->
 </main>
 
-<? include('layout/footer.php') ?>
+<?php include('layout/footer.php') ?>

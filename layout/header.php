@@ -46,7 +46,7 @@
         <div class="d-flex flex-column">
 
             <div class="profile">
-                <img src="assets/img/profile-img.jpg" alt="" class="img-fluid rounded-circle">
+                <img src="assets/img/aku2.jpg" alt="" class="img-fluid rounded-circle">
                 <h1 class="text-light"><a href="home.php">Andreas Adi Prasetyo</a></h1>
                 <div class="social-links mt-3 text-center">
                     <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
@@ -59,11 +59,18 @@
 
             <nav id="navbar" class="nav-menu navbar">
                 <ul>
-                    <li><a href="home.php" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
-                    <li><a href="about.php" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
-                    <li><a href="resume.php" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
-                    <li><a href="protofolio.php" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
+                    <li><a href="home.php" class="<?php echo isActive('home.php'); ?>"><i class="bx bx-home"></i> <span>Home</span></a></li>
+                    <li><a href="about.php" class="<?php echo isActive('about.php'); ?>"><i class="bx bx-user"></i> <span>About</span></a></li>
+                    <li><a href="resume.php" class="<?php echo isActive('resume.php'); ?>"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
+                    <li><a href="protofolio.php" class="<?php echo isActive('protofolio.php'); ?>"><i class="bx bx-book-content"></i> <span>Lampiran</span></a></li>
                 </ul>
             </nav><!-- .nav-menu -->
+            <?php
+            // Function to determine if a menu should be active
+            function isActive($page)
+            {
+                return (basename($_SERVER['PHP_SELF']) == $page) ? 'active' : '';
+            }
+            ?>
         </div>
     </header><!-- End Header -->
